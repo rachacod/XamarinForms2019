@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App1_ConsultarCEP"
+             x:Class="App1_ConsultarCEP.MainPage">
+
+    <!--StackLayout é layout de empilhar um em cima do outro.-->
+    <!--Padding distancia do elemnto pai para o elemento filho-->
+    <!--Spacing distancia entre os elemntos empilhados-->
+    <StackLayout BackgroundColor="#FFBF00" Padding="30" Spacing="30">
+        
+        <!--Imagem logo Correios-->
+        <!--Android colar a pasta dentro de resource\drawable-->
+        <!--iOS dentro de \resource-->
+        <!--UWP na raiz-->
+        <Image Source="logo_correios.png"/>
+        
+        <!--Campo de texto-->
+        <Entry Placeholder="Digite o CEP" PlaceholderColor="#FFBF00" BackgroundColor="#FFFFFF" x:Name="CEP"/>
+        
+        <!--Botão-->
+        <Button Text="Buscar CEP" TextColor="#FFFFFF" BackgroundColor="#00416B" x:Name="BOTAO"/>
+        
+        <!--Caixa de texto-->
+        <Label Text="" x:Name="RESULTADO"
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+    </StackLayout>
+
+</ContentPage>

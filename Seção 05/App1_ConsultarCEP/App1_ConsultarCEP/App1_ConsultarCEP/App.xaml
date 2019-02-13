@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- site onde pode se ver tudo sobre o xaml http://schemas.microsoft.com/winfx/2009/xaml-->
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1_ConsultarCEP.App">
+    
+    <Application.Resources>
+<!--lugar onde se coloca os estilos das telas de todo o app-->
+    </Application.Resources>
+</Application>
